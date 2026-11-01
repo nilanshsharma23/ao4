@@ -5,12 +5,12 @@
 	</div>
 	<div class="flex flex-row gap-4 text-lg">
 		<div class="flex flex-row gap-2">
-			<div class="font-bold">0</div>
+			<div class="font-bold">Some</div>
 			Users
 		</div>
 		<div class="text-gray-500">|</div>
 		<div class="flex flex-row gap-2">
-			<div class="font-bold">0</div>
+			<div class="font-bold">Not so Many</div>
 			Works
 		</div>
 	</div>

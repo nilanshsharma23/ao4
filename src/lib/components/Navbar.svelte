@@ -26,13 +26,12 @@
 	<div class="flex w-full flex-row items-center justify-between bg-[#970000] px-4 py-1 text-white">
 		<div class="flex flex-row gap-4">
 			<a href="/browse">Browse</a>
-			<a href="/search">Search</a>
 			<a href="/about">About</a>
 		</div>
 		<div class="flex flex-row gap-2">
 			<input
 				type="text"
-				placeholder="Search..."
+				placeholder="Search... (doesn't work)"
 				class="rounded-2xl bg-white px-2 text-black placeholder:text-gray-500"
 			/>
 			<button class="cursor-pointer rounded bg-white px-2 text-black">Submit</button>
