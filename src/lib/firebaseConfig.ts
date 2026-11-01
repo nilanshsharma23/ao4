@@ -5,7 +5,7 @@ import {
 	FIREBASE_MESSAGING_SENDER_ID,
 	FIREBASE_PROJECT_ID,
 	FIREBASE_STORAGE_BUCKET
-} from '$app/env/private';
+} from '$app/env/public';
 
 export default {
 	apiKey: FIREBASE_API_KEY,
