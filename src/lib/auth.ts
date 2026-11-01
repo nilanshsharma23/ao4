@@ -13,7 +13,7 @@ export const logIn = async (email: string, password: string) => {
 			await goto('/');
 		})
 		.catch((error) => {
-			console.log(error);
+			alert(error);
 		});
 };
 
@@ -27,6 +27,6 @@ export const signUp = async (email: string, password: string, username: string) 
 			await goto('/');
 		})
 		.catch((error) => {
-			console.log(error);
+			alert(error);
 		});
 };
