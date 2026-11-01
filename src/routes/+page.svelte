@@ -14,6 +14,7 @@
 			Works
 		</div>
 	</div>
+	<a href="/submit" class="font-sans text-lg font-bold text-blue-700 underline">SUBMIT SOMETHING</a>
 	<a
 		href="https://nilanshsharma.org"
 		target="_blank"
