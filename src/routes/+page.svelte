@@ -1,6 +1,6 @@
 <div class="mx-8 my-4 flex flex-col items-center gap-2">
 	<div class="text-2xl">
-		An open-souce, non-commercial website for some hack club fan works made in one night by a 17
+		An open-source, non-commercial website for some hack club fan works made in one night by a 17
 		year old who just wanted to do a challenge and got frustrated when he tried to vibecode it.
 	</div>
 	<div class="flex flex-row gap-4 text-lg">
