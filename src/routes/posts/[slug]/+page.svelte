@@ -17,11 +17,12 @@
 
 	onAuthStateChanged(auth, async () => {
 		let data = (await getDoc(doc(db, 'works', params.slug))).data();
-		title = data.title;
-		content = data.content;
-		author = data.author;
 
-		console.log(content);
+		if (data) {
+			title = data.title;
+			content = data.content;
+			author = data.author;
+		}
 	});
 </script>
 

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import firebaseConfig from '#lib/firebaseConfig.ts';
+	import type { Work } from '#lib/types/work.ts';
 	import { initializeApp } from 'firebase/app';
 	import { getAuth, onAuthStateChanged } from 'firebase/auth';
 	import { collection, getDocs, getFirestore } from 'firebase/firestore';
@@ -7,7 +8,7 @@
 	const auth = getAuth(initializeApp(firebaseConfig));
 	const db = getFirestore(initializeApp(firebaseConfig));
 
-	let works: Array<{}> = $state([]);
+	let works: Array<Work> = $state([]);
 
 	onAuthStateChanged(auth, async (user) => {
 		const querySnapshot = await getDocs(collection(db, 'works'));
