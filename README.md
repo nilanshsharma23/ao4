@@ -6,3 +6,6 @@ An open-source, non-commercial website for some hack club fan works made in one 
 - Posting a Work
 - Viewing Works
 - what else could you want?
+
+## AI Usage
+No AI was used in this project, the motivation behind it was how frustrating vibecoding was.

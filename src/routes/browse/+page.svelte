@@ -22,7 +22,7 @@
 <div class="mx-8 my-4 flex flex-col gap-2">
 	<div class="font-sans text-2xl font-bold">Browse Works</div>
 	{#each works as work}
-		<a href={'/posts/' + work.id} class="flex flex-col border px-4">
+		<a href={'/posts/' + work.id} class="flex flex-col border p-4">
 			<div class="text-2xl">{work.data.title}</div>
 			<div class="text-lg">{work.data.content.substring(0, 100)}.....</div>
 			<div class="text-sm">author: {work.data.author}</div>
